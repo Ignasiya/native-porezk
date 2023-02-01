@@ -17,6 +17,11 @@ ul, li {
 }
 
 .container {
-    width: 1170px;
-    margin: 0 auto;    
+    width: 1400px;
+    /* позиционирование по центру */
+    margin: 0 auto; 
+}
+
+.header {
+    background: #FF3E3E;
 }

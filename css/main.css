@@ -124,7 +124,9 @@ header a {
 }
 
 .image-is-2by {
-    padding-top: 50%;
+    padding: 1px;
+    display: block;
+    position: relative;
 }
 
 .card-content {
@@ -151,6 +153,7 @@ header a {
     margin-top: auto;
     margin-bottom: auto;
     word-break: break-word;
+    text-transform: uppercase;
 }
 
 .title-data {

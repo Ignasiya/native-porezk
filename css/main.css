@@ -239,7 +239,7 @@ input[type="radio"][id="blue"]:checked + label {
 }
 
 input[type="radio"][id="blue"]:checked ~ .red, 
-input[type="radio"][id="blue"]:checked ~ .green
+input[type="radio"][id="blue"]:checked ~ .green,
 input[type="radio"][id="blue"]:checked ~ .violet {
   width:0;
   height:0;
@@ -253,7 +253,7 @@ input[type="radio"][id="red"]:checked + label {
 }
 
 input[type="radio"][id="red"]:checked ~ .blue, 
-input[type="radio"][id="red"]:checked ~ .green
+input[type="radio"][id="red"]:checked ~ .green,
 input[type="radio"][id="red"]:checked ~ .violet {
   width:0;
   height:0;
@@ -267,7 +267,7 @@ input[type="radio"][id="green"]:checked + label {
 }
 
 input[type="radio"][id="green"]:checked ~ .blue, 
-input[type="radio"][id="green"]:checked ~ .red
+input[type="radio"][id="green"]:checked ~ .red,
 input[type="radio"][id="green"]:checked ~ .violet {
   width:0;
   height:0;
@@ -281,7 +281,7 @@ input[type="radio"][id="violet"]:checked + label {
 }
 
 input[type="radio"][id="violet"]:checked ~ .blue, 
-input[type="radio"][id="violet"]:checked ~ .red 
+input[type="radio"][id="violet"]:checked ~ .red,
 input[type="radio"][id="violet"]:checked ~ .green{
 	width:0;
 	height:0;

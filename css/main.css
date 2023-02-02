@@ -25,7 +25,7 @@ ul, li {
 }
 
 .header {
-    background: #FF3E3E;
+    background: #da1212e5;
 }
 
 header a {
@@ -74,14 +74,14 @@ header a {
 }
 
 .about {
-    background: #FF3E3E;
+    background: #da1212e5;
 }
 
 .zemlyki {
     font-size: 60px;
     padding-top: 10px;
     text-align: center;
-    color: #4766ce;
+    color: #5b75ca;
     background: #FFF;
 }
 
@@ -90,5 +90,8 @@ header a {
     border: 20px solid transparent;
     border-image: linear-gradient(180deg, #00C9FF 0%, #92FE9D 100%) 20% / 1 / 0 stretch;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 31px;
+}
+
+.footer {
+    background: #da1212e5;
 }

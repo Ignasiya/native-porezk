@@ -95,3 +95,75 @@ header a {
 .footer {
     background: #da1212e5;
 }
+
+.columns {
+    display: flex;
+    margin-bottom: calc(1.5rem - 0.75rem);
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem
+}
+
+.column {
+    display: block;
+    margin: 2rem;
+}
+
+.card {
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0px 0 1px rgb(10 10 10 / 2%);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+}
+.foto {
+    display: block;
+    position: relative;
+}
+
+.image-is-2by {
+    padding-top: 50%;
+}
+
+.card-content {
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    background-color: transparent;
+    padding: 1.5rem;
+}
+
+.media{
+    margin-bottom: 1.5rem;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    display: flex;
+    text-align: center;
+}
+
+.title-name {
+    font-size: 1.5rem;
+    color: #363636;
+    font-weight: 600;
+    line-height: 1.125;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    word-break: break-word;
+}
+
+.title-data {
+    font-size: 1rem;
+    color: #363636;
+    font-weight: 600;
+    line-height: 1.125;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    word-break: break-word;    
+}
+
+.content{
+    margin-bottom: 1em;
+}

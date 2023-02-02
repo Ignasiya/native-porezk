@@ -98,15 +98,16 @@ header a {
 
 .columns {
     display: flex;
-    margin-bottom: calc(1.5rem - 0.75rem);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
     margin-left: -0.75rem;
     margin-right: -0.75rem;
-    margin-top: -0.75rem
+    margin-top: 1rem
 }
 
 .column {
     display: block;
-    margin: 2rem;
+    margin: 2.05rem;
 }
 
 .card {
@@ -124,9 +125,10 @@ header a {
 }
 
 .image-is-2by {
-    padding: 1px;
+    padding-top: 40px;
     display: block;
     position: relative;
+    width: 200px;
 }
 
 .card-content {
@@ -140,7 +142,6 @@ header a {
     margin-bottom: 1.5rem;
     -webkit-box-align: start;
     align-items: flex-start;
-    display: flex;
     text-align: center;
 }
 
@@ -164,7 +165,7 @@ header a {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    word-break: break-word;    
+    word-break: break-word;       
 }
 
 .content{

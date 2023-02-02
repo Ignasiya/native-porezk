@@ -155,8 +155,8 @@ header a {
 }
 
 .back{
-    font-size: 1rem;
-	padding: 1rem;
+    font-size: 0.9rem;
+	padding: 1.5rem;
 }
 
 .title-name {
@@ -224,7 +224,7 @@ input[type="radio"] {
 label {
     width:67%;        
     float: left;
-    justify-self: center;    
+    justify-self: center;        
     text-align: center;
     background:#ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -235,7 +235,7 @@ label {
 }
 
 input[type="radio"][id="blue"]:checked + label {
-  background:#6666ff;
+  background:#8f8fce;
 }
 
 input[type="radio"][id="blue"]:checked ~ .red, 
@@ -249,7 +249,7 @@ input[type="radio"][id="blue"]:checked ~ .violet {
 }
 
 input[type="radio"][id="red"]:checked + label {
-  background:#ff4466;
+  background:#faaebc;
 }
 
 input[type="radio"][id="red"]:checked ~ .blue, 
@@ -263,7 +263,7 @@ input[type="radio"][id="red"]:checked ~ .violet {
 }
 
 input[type="radio"][id="green"]:checked + label {
-  background:#66dd99;
+  background:#93d3af;
 }
 
 input[type="radio"][id="green"]:checked ~ .blue, 
@@ -277,7 +277,7 @@ input[type="radio"][id="green"]:checked ~ .violet {
 }
 
 input[type="radio"][id="violet"]:checked + label {
-	background:#b302b3;
+	background:#e796e7;
 }
 
 input[type="radio"][id="violet"]:checked ~ .blue, 
@@ -289,4 +289,3 @@ input[type="radio"][id="violet"]:checked ~ .green{
 	margin:0;
 	opacity:0;
 }
-

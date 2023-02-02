@@ -25,7 +25,7 @@ ul, li {
 }
 
 .header {
-    background: #da1212e5;
+    background: #e65c5cd0;
 }
 
 header a {
@@ -70,11 +70,15 @@ header a {
 }
 
 .gerbpor {
+    margin: 15px;    
+}
+
+.logo {
     margin: 15px;
 }
 
 .about {
-    background: #da1212e5;
+    background: #e65c5cd0;
 }
 
 .zemlyki {
@@ -88,12 +92,12 @@ header a {
 .zona {
     background: #FFE600;
     border: 20px solid transparent;
-    border-image: linear-gradient(180deg, #00C9FF 0%, #92FE9D 100%) 20% / 1 / 0 stretch;
+    border-image: linear-gradient(180deg, #00a2ff 0%, #92FE9D 100%) 20% / 1 / 0 stretch;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footer {
-    background: #da1212e5;
+    background: #e65c5cd0;
 }
 
 .columns {
@@ -171,3 +175,4 @@ header a {
 .content{
     margin-bottom: 1em;
 }
+

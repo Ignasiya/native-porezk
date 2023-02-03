@@ -112,7 +112,7 @@ header a {
     display: block;
     margin: 2rem;
     justify-self: center;
-    transition:all 1s;
+    transition: all 1s;
 }
 
 .card {

@@ -106,12 +106,12 @@ header a {
     display: flex;
     display: grid;
     grid-template-columns: repeat(5, 20%);
-
 }
 
 .column {
     display: block;
     margin: 2rem;
+    justify-self: center;
     transition:all 1s;
 }
 
@@ -139,6 +139,7 @@ header a {
 
 .img {
     max-width: 200px;
+    justify-self: center;
     margin-left: -2.2rem;
     margin-right: -2.2rem;
     margin-top: -1.5rem

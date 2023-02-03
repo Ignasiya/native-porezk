@@ -139,6 +139,7 @@ header a {
 
 .img {
     max-width: 200px;
+    min-width: 200px;
     justify-self: center;
     margin-left: -2.2rem;
     margin-right: -2.2rem;

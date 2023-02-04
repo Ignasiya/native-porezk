@@ -28,6 +28,7 @@ header a {
     color: #fff;
 }
 
+/* Менюшка, потом надо доработать */
 .menu {
     display: flex;
     padding-top: 50px;
@@ -73,13 +74,18 @@ header a {
 .logo {
     margin: 15px;
 }
-
+/*Надпись Уроженцы*/
 .zemlyki {
     font-size: 60px;
     padding-top: 10px;
     text-align: center;
     color: #5b75ca;
     background: #FFF;
+    transition: 1s; /* Время эффекта */
+    text-align: center; 
+}
+.zemlyki:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
 }
 
 .zona {
@@ -100,7 +106,7 @@ header a {
     margin:0.5%;
     padding:0.5%;    
 }
-
+/*Кнопка фильтра*/
 label {
     width:18%;
     float:left;
@@ -154,8 +160,8 @@ label {
 }
 
 .back{
-    font-size: 1rem;
-	padding: 1rem;
+    font-size: 16.2px;
+    padding: 1rem;
 }
 
 .title-name {
@@ -176,6 +182,7 @@ label {
     font-weight: 600;      
 }
 
+/* Дальше анимация по повороту карточки */
 .card .wrapper {
 	position: relative;
 	display: grid;
@@ -210,7 +217,7 @@ label {
 .clicked:nth-child(1) .wrapper {
 	transform: translateZ(0) scale(1.001) rotateY(0.5turn);
 } 
-
+/* Дальше раздел по фильтру на категории */
 input[type="radio"] {
     display:none;
 }

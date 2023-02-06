@@ -66,12 +66,14 @@ header a {
 
 .gerbCH {
     margin: 15px;
+    object-fit: contain;
     width: auto;
     height: auto;
 }
 
 .gerbpor {
     margin: 15px;
+    object-fit: contain;
     width: auto;
     height: auto;   
 }

@@ -45,7 +45,7 @@
   transition: 0.3s ease;
   transition-delay: 0.1s;
 }
-.sidebar .close .logo-details .logo_name {
+.sidebar.close .logo-details .logo_name {
   transition-delay: 0s;
   opacity: 0;
   pointer-events: none;
@@ -55,7 +55,7 @@
   padding: 30px 0 150px 0;
   overflow: auto;
 }
-.sidebar .close .nav-links {
+.sidebar.close .nav-links {
   overflow: visible;
 }
 .sidebar .nav-links::-webkit-scrollbar {
@@ -74,7 +74,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.sidebar .close .nav-links li .iocn-link {
+.sidebar.close .nav-links li .iocn-link {
   display: block
 }
 .sidebar .nav-links li i {
@@ -99,10 +99,10 @@
     text-align: center; 
     margin: 8px 24px 8px 24px;  
 }
-.sidebar .nav-links li .showMenu i.arrow {
+.sidebar .nav-links li .showMenu i .arrow {
   transform: rotate(-180deg);
 }
-.sidebar.close .nav-links i.arrow {
+.sidebar.close .nav-links i .arrow {
   display: none;
 }
 .sidebar .nav-links li a {
@@ -116,7 +116,7 @@
   color: #fff;
   transition: all 0.4s ease;
 }
-.sidebar .close .nav-links li a .link_name {
+.sidebar.close .nav-links li a .link_name {
   opacity: 0;
   pointer-events: none;
 }
@@ -140,7 +140,7 @@
 .sidebar .nav-links li .sub-menu a:hover {
   opacity: 1;
 }
-.sidebar .close .nav-links li .sub-menu {
+.sidebar.close .nav-links li .sub-menu {
   position: absolute;
   left: 100%;
   top: -10px;
@@ -152,7 +152,7 @@
   pointer-events: none;
   transition: 0s;
 }
-.sidebar .close .nav-links li:hover .sub-menu {
+.sidebar.close .nav-links li:hover .sub-menu {
   top: 0;
   opacity: 1;
   pointer-events: auto;
@@ -161,7 +161,7 @@
 .sidebar .nav-links li .sub-menu .link_name {
   display: none;
 }
-.sidebar .close .nav-links li .sub-menu .link_name {
+.sidebar.close .nav-links li .sub-menu .link_name {
   font-size: 18px;
   opacity: 1;
   display: block;
@@ -188,10 +188,8 @@
   padding: 12px 0;
   transition: all 0.5s ease;
 }
-.sidebar .close .profile-details {
+.sidebar.close .profile-details {
   background: none;
-}
-.sidebar .close .profile-details {
   width: 78px;
 }
 .sidebar .profile-details .profile-content {
@@ -207,7 +205,7 @@
   background: #1d1b31;
   transition: all 0.5s ease;
 }
-.sidebar .close .profile-details img {
+.sidebar.close .profile-details img {
   padding: 10px;
 }
 .sidebar .profile-details .profile_name,
@@ -217,15 +215,15 @@
   font-weight: 500;
   white-space: nowrap;
 }
-.sidebar .close .profile-details i,
-.sidebar .close .profile-details .profile_name,
-.sidebar .close .profile-details .job {
+.sidebar.close .profile-details i,
+.sidebar.close .profile-details .profile_name,
+.sidebar.close .profile-details .job {
   display: none;
 }
 .sidebar .profile-details .job {
   font-size: 12px;
 }
-.home-section{
+.home-section {
   position: relative;
   background: #E4E9F7;
   height: 100%;
@@ -233,7 +231,7 @@
   width: calc(100% - 260px);
   transition: all 0.5s ease;
 }
-.sidebar .close ~ .home-section {
+.sidebar.close ~ .home-section {
   left: 78px;
   width: calc(100% - 78px);
 }
@@ -273,7 +271,7 @@ label {
 }
 .column {
   width:19%;  
-  min-height:530px;
+  min-height:550px;
   float:left;
   transition:all 1s;
   margin:0.5%;
@@ -450,21 +448,21 @@ input[type="radio"][id="violet"]:checked ~ .green {
   }
 }
 @media (max-width: 1000px) {
-  .sidebar.close .nav-links li .sub-menu{
+  .sidebar.close .nav-links li .sub-menu {
     display: none;
   }
-  .sidebar{
+  .sidebar {
     width: 78px;
   }
-  .sidebar.close{
+  .sidebar.close {
     width: 0;
   }
-  .home-section{
+  .home-section {
     left: 78px;
     width: calc(100% - 78px);
     z-index: 100;
   }
-  .sidebar.close ~ .home-section{
+  .sidebar.close ~ .home-section {
     width: 100%;
     left: 0;
   }
@@ -525,5 +523,21 @@ input[type="radio"][id="violet"]:checked ~ .green {
   }
   .back{    
     font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .zona .column {
+    width: 100%;
+    min-height:460px;       
+  }
+  .img {
+    width: 220px;    
+  }
+  .back{    
+    font-size: 16px;
+  }
+  .home-section .home-content .text {
+    font-size: 20px;
+    font-weight: 600;
   }
 }

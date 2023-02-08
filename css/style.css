@@ -99,7 +99,7 @@
     text-align: center; 
     margin: 8px 24px 8px 24px;  
 }
-.sidebar .nav-links li .showMenu i .arrow {
+.sidebar .nav-links li.showMenu i .arrow {
   transform: rotate(-180deg);
 }
 .sidebar.close .nav-links i .arrow {
@@ -126,7 +126,7 @@
   background: #1d1b31;
   display: none;
 }
-.sidebar .nav-links li .showMenu .sub-menu {
+.sidebar .nav-links li.showMenu .sub-menu {
   display: block;
 }
 .sidebar .nav-links li .sub-menu a {
